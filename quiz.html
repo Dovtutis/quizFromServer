@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QUIZ</title>
+    <script type="text/javascript" defer src="js/quiz.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/quiz.css">
+    <script src="https://kit.fontawesome.com/42762d49f1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="logInScreen" class="display_flex justify-content-center flex-column align-items-center">
+    <div>
+        <input type="text" placeholder="Enter Your Name" id="nameInput" autocomplete="off">
+    </div>
+    <div>
+        <button id="startGameButton">Start the Game</button>
+    </div>
+</div>
+<div id="gameWindow" class="">
+    <div id="mainContainer" class="justify-content-center display_flex flex-column align-items-center">
+        <div id="app"></div>
+        <div id="timer"></div>
+        <div id="username"></div>
+        <div id="points">
+            0
+        </div>
+        <div id="question">
+
+        </div>
+        <div id="answerBar">
+
+        </div>
+        <div>
+            <input type="text" id="questionInput" placeholder="Your answer:" autocomplete="off">
+        </div>
+        <div>
+            <button id="submitButton">SUBMIT</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
